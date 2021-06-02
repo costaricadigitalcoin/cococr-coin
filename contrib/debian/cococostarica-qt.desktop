@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=COCOCostaRica Core
+Comment=COCOCostaRica P2P Cryptocurrency
+Comment[de]=Verbinde mit dem COCOCostaRica peer-to-peer Netzwerk
+Comment[fr]=COCOCostaRica, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=COCOCostaRica, eşten eşe kriptografik sanal para birimi
+Exec=cococostarica-qt %u
+Terminal=false
+Type=Application
+Icon=cococostarica128
+MimeType=x-scheme-handler/cococostarica;
+Categories=Office;Finance;

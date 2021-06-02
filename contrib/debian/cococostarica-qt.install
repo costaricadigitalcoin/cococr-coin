@@ -1,0 +1,6 @@
+usr/local/bin/cococostarica-qt usr/bin
+share/pixmaps/cococostarica32.xpm usr/share/pixmaps
+share/pixmaps/cococostarica16.xpm usr/share/pixmaps
+share/pixmaps/cococostarica128.png usr/share/pixmaps
+debian/cococostarica-qt.desktop usr/share/applications
+debian/cococostarica-qt.protocol usr/share/kde4/services/

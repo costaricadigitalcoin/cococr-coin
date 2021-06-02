@@ -1,0 +1,22 @@
+[Unit]
+Description=COCOCostaRica's distributed currency daemon
+After=network.target
+
+[Service]
+User=cococostaricacore
+Group=cococostaricacore
+
+Type=forking
+PIDFile=/var/lib/cococostaricad/cococostaricad.pid
+ExecStart=/usr/bin/cococostaricad -daemon -pid=/var/lib/cococostaricad/cococostaricad.pid \
+-conf=/etc/cococostaricacore/cococostarica.conf -datadir=/var/lib/cococostaricad -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
